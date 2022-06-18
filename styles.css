@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #0063cc7c;
+  padding-top: 5rem;
 }
 
 #level-title {
@@ -20,10 +21,7 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+  border: 5px solid black;
 }
 
 .game-over {
@@ -33,18 +31,31 @@ body {
 
 .red {
   background-color: red;
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 20%;
+  
 }
 
 .green {
   background-color: green;
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 20%;
 }
 
 .blue {
   background-color: blue;
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 20%;
 }
 
 .yellow {
   background-color: yellow;
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 20%;
 }
 
 .pressed {
@@ -63,6 +74,7 @@ body {
 }
 h1{
   display: inline;
+  padding-top: 20px;
 }
 .lost
 {
@@ -71,4 +83,16 @@ h1{
 .levelup
 {
   display: none;
+}
+.row{
+  display: inline;
+}
+.start-game
+{
+  padding: 1% 3%;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  border:  2px solid black;
+  border-radius: 10%;
 }
